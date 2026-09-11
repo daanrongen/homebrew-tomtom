@@ -2,28 +2,28 @@
 class Tomtom < Formula
   desc "Unix-friendly CLI for TomTom's location APIs"
   homepage "https://github.com/daanrongen/tomtom"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/daanrongen/tomtom/releases/download/v0.1.1/tomtom-darwin-arm64.tar.gz"
-      sha256 "2c5ee9fb8864a567bf504e56a2a45bdedf9e7b6d77024e97ee34169924114c36"
+      url "https://github.com/daanrongen/tomtom/releases/download/v0.1.2/tomtom-darwin-arm64.tar.gz"
+      sha256 "b2514c7e3670cc0f91f00d4dacb6d0574a309d2409c676ad40c45f0f44085ff2"
     end
     on_intel do
-      url "https://github.com/daanrongen/tomtom/releases/download/v0.1.1/tomtom-darwin-x64.tar.gz"
-      sha256 "c90982a3014f7b1eaec8636ddf4c2bf62db50825175648fd6f15ac3507beb7e1"
+      url "https://github.com/daanrongen/tomtom/releases/download/v0.1.2/tomtom-darwin-x64.tar.gz"
+      sha256 "bcd01052b9b8fe41100223b36d99e9e64a3b00a7973929f74228963c01abb416"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/daanrongen/tomtom/releases/download/v0.1.1/tomtom-linux-arm64.tar.gz"
-      sha256 "7f358833e48530b37e46663b944a022cb29d727dcc7f354e64cd957f17964905"
+      url "https://github.com/daanrongen/tomtom/releases/download/v0.1.2/tomtom-linux-arm64.tar.gz"
+      sha256 "0697a48029c285197ec97a4a53b449d5d9ef9df282c70407073306cc43753b07"
     end
     on_intel do
-      url "https://github.com/daanrongen/tomtom/releases/download/v0.1.1/tomtom-linux-x64.tar.gz"
-      sha256 "824f7633a9c1869081694df9fea0dc082fdd536df8897f05646e87d341f80fa6"
+      url "https://github.com/daanrongen/tomtom/releases/download/v0.1.2/tomtom-linux-x64.tar.gz"
+      sha256 "35db270b359e0582d4eab9a117d0075a7acae6c4f49ffbedd72e6b0f5928b85b"
     end
   end
 
